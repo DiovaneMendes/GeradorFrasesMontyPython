@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c22cec6a-6dfb-48df-8547-1ee5509cfe18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Quote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/QuoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,13 +23,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Quote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="238">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1185#1186#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1297#1298#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1598#1599#0" expanded="true" />
+                <element signature="e#1618#1619#0" expanded="true" />
+                <element signature="e#1659#1660#0" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1747#1748#0" expanded="true" />
+                <element signature="e#1799#1800#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#1925#1926#0" expanded="true" />
+                <element signature="e#1952#1953#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
+                <element signature="e#2089#2090#0" expanded="true" />
+                <element signature="e#2136#2137#0" expanded="true" />
                 <element signature="e#241#242#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
               </folding>
@@ -38,10 +82,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="13" selection-end-column="20" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,6 +130,9 @@
         <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/java/challenge/Quote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -146,12 +221,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548693659411</updated>
-      <workItem from="1548693663503" duration="1252000" />
+      <workItem from="1548693663503" duration="3056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1252000" />
+    <option name="totallyTimeSpent" value="3056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -163,11 +238,11 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.51805335" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3579278" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.3289689" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32890365" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" />
@@ -220,12 +295,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenge/Quote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
           </folding>
         </state>
       </provider>

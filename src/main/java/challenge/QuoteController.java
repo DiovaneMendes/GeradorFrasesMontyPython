@@ -14,5 +14,4 @@ public class QuoteController {
 	public Quote getQuoteByActor(String actor) {
 		return service.getQuoteByActor(actor);
 	}
-
 }
