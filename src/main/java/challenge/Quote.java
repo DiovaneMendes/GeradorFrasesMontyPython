@@ -1,10 +1,6 @@
 package challenge;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
+import javax.persistence.*;
 import java.time.LocalDate;
 
 import static javax.persistence.GenerationType.IDENTITY;
@@ -31,7 +27,7 @@ public class Quote {
 
 	private String detail;
 
-	@Column(name = "record_data")
+	@Column(name = "record_date")
 	private LocalDate recordData;
 
 	private String series;

@@ -11,11 +11,11 @@ public class QuoteServiceImpl implements QuoteService {
 
 	@Autowired
 	private QuoteRepository repository;
-	private Random generator = new Random();;
+	private Random generator = new Random();
 
 	@Override
 	public Quote getQuote() {
-		int idAleatorio = generator.nextInt(repository.findAll().size());
+		Integer idAleatorio = 1;
 
 		Optional<Quote> quoteOptional = repository.findById(idAleatorio);
 
