@@ -4,8 +4,6 @@ Monty Python foi um dos grupos de comediantes mais influentes e reverenciados da
 
 ## Tópicos
 
-Neste desafio você aprenderá:
-
 - Java
 - Criar APIs
 - Testar APIs
