@@ -6,6 +6,4 @@ import java.util.Optional;
 
 public interface QuoteRepository extends JpaRepository<Quote, Integer> {
     Optional<Quote> findQuoteByActor(String name);
-
-
 }

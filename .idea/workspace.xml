@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c22cec6a-6dfb-48df-8547-1ee5509cfe18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/QuoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/QuoteControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge/QuoteControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/QuoteIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge/QuoteIntegrationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -36,24 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -62,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +72,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/java/challenge/Quote.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteController.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenge/QuoteControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/challenge/QuoteIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/challenge/QuoteController.java" />
       </list>
     </option>
   </component>
@@ -170,12 +160,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548693659411</updated>
       <workItem from="1548693663503" duration="3622000" />
-      <workItem from="1548697801480" duration="390000" />
+      <workItem from="1548697801480" duration="773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4012000" />
+    <option name="totallyTimeSpent" value="4395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -266,31 +256,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/challenge/QuoteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
