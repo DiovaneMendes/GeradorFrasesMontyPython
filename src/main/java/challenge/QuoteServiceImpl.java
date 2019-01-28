@@ -17,17 +17,20 @@ public class QuoteServiceImpl implements QuoteService {
 	public Quote getQuote() {
 		int idAleatorio = generator.nextInt(repository.findAll().size());
 
-		Optional<Quote> quote = repository.findById(idAleatorio);
+		Optional<Quote> quoteOptional = repository.findById(idAleatorio);
 
-		if(quote.isPresent()){
-			return quote.get();
+		if(quoteOptional.isPresent()){
+			return quoteOptional.get();
 		}
 		return null;
 	}
 
 	@Override
 	public Quote getQuoteByActor(String actor) {
-
+		Optional<Quote> quoteOptional = repository.findQuoteByActor(actor);
+		if(quoteOptional.isPresent()){
+			return quoteOptional.get();
+		}
 		return null;
 	}
 }

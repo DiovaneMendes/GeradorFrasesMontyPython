@@ -55,5 +55,4 @@ public class QuoteControllerTest {
 	               .andExpect(status().isOk())
 	               .andExpect(jsonPath("$", notNullValue()));
 	}
-
 }

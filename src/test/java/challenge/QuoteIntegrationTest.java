@@ -36,5 +36,4 @@ public class QuoteIntegrationTest {
 		assertEquals(response.getStatusCode(), HttpStatus.OK);
 		assertNotNull(quote);
 	}
-
 }
