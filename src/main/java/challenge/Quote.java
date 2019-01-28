@@ -130,4 +130,12 @@ public class Quote {
 	public void setQuote(String quote) {
 
 	}
+
+	@Override
+	public String toString() {
+		return "Quote{" +
+				"actor='" + actor + '\'' +
+				", detail='" + detail + '\'' +
+				'}';
+	}
 }
