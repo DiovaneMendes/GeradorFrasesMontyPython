@@ -13,9 +13,13 @@ public class QuoteServiceImpl implements QuoteService {
 	private QuoteRepository repository;
 	private Random generator = new Random();
 
+	public QuoteServiceImpl(QuoteRepository repository){
+		this.repository = repository;
+	}
+
 	@Override
 	public Quote getQuote() {
-		Integer idAleatorio = 1;
+		Integer idAleatorio = generator.nextInt(repository.findAll().size()-1);
 
 		Optional<Quote> quoteOptional = repository.findById(idAleatorio);
 
