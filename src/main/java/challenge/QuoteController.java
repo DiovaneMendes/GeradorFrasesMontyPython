@@ -18,9 +18,9 @@ public class QuoteController {
 		return service.getQuote();
 	}
 
-	@GetMapping("/v1/quote/{actor}")
+	@GetMapping("/v1/quote/")
 	@ResponseBody
-	public Quote getQuoteByActor(@PathVariable String actor){
+	public Quote getQuoteByActor(@RequestParam("actor") String actor){
 		return service.getQuoteByActor(actor);
 	}
 }
