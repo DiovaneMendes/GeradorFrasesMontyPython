@@ -21,13 +21,8 @@ public class QuoteServiceImpl implements QuoteService {
 	@Override
 	public Quote getQuote() {
 		Integer idAleatorio = generator.nextInt(repository.findAll().size()-1);
-
-		Optional<Quote> quoteOptional = repository.findById(idAleatorio);
-
-		if(quoteOptional.isPresent()){
-			return quoteOptional.get();
-		}
-		return null;
+		
+		return repository.findById(idAleatorio).get();
 	}
 
 	@Override
