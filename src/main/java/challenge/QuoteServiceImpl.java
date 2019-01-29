@@ -31,10 +31,8 @@ public class QuoteServiceImpl implements QuoteService {
 
 	@Override
 	public Quote getQuoteByActor(String actor) {
-		Optional<Quote> quoteOptional = repository.findQuoteByActor(actor);
-		if(quoteOptional.isPresent()){
-			return quoteOptional.get();
-		}
-		return null;
+		List<Quote> listaQuote = repository.findAllByActor(actor);
+
+		return listaQuote.get(generator.nextInt(listaQuote.size()));
 	}
 }
